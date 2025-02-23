@@ -1,76 +1,60 @@
-# AI-hiring-assistance
+# 🤖 TalentScout - AI Hiring Assistant
 
-# TalentScout - AI Hiring Assistant
+![TalentScout Logo]([./logo.png](https://github.com/bunny-2425/AI-hiring-assistance/blob/main/main%20logo.png))  
 
-## Overview
-TalentScout is an AI-powered hiring assistant built with Streamlit and MongoDB. It provides a seamless experience for recruiters and job seekers by streamlining the hiring process through authentication, AI screening, and technical evaluations.
+TalentScout is an AI-powered hiring assistant designed to streamline the recruitment process. Built with **Streamlit, MongoDB, and AI-driven features**, this web app allows recruiters to manage candidates efficiently, conduct AI screenings, and leverage RAG-based AI chat for insightful hiring decisions.
 
-## Features
-- **User Authentication:** Secure login and registration system with password hashing.
-- **Candidate Data Storage:** Store candidate details including personal information, tech stack, and preferences.
-- **AI Screening:** Interactive chatbot for candidate screening and evaluation.
-- **RAG-based AI Chatbot:** AI-driven question-answering system using Retrieval-Augmented Generation (RAG) with ChromaDB.
-- **Streamlit UI:** Intuitive and responsive interface with custom styling.
+## 🌟 Features
 
-## Tech Stack
-- **Frontend & Backend:** Streamlit
-- **Database:** MongoDB (Atlas)
-- **AI & ML:** GroqCloud, ChromaDB
-- **Authentication:** bcrypt for password hashing
-- **Environment Management:** dotenv for environment variables
-- **Image Processing:** PIL for logo handling
+- 🔐 **User Authentication** (Login & Registration)
+- 📄 **Candidate Profile Management**
+- 🛠 **Tech Stack Selection**
+- 🤖 **AI Chatbot Screening**
+- 🔍 **AI-powered RAG-based Q&A**
+- 📊 **Interactive UI with Streamlit**
 
-## Installation
-### Prerequisites
-- Python 3.8+
-- MongoDB Atlas account
-- Streamlit installed
+## 🚀 Installation
 
-### Steps to Run the Application
-1. Clone the repository:
+1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/talent-scout.git
-   cd talent-scout
+   git clone https://github.com/your-repo/talentscout-ai.git
+   cd talentscout-ai
    ```
+
 2. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-3. Create a `.env` file and set the MongoDB URI:
-   ```sh
+
+3. Create a `.env` file and add your MongoDB URI:
+   ```
    MONGO_URI=your_mongodb_connection_string
    ```
-4. Run the Streamlit app:
+
+4. Run the application:
    ```sh
    streamlit run app.py
    ```
 
-## Usage
-1. **Login/Register:** Users need to authenticate using their credentials.
-2. **Fill Candidate Details:** Provide personal information, experience, and desired job role.
-3. **Select Tech Stack:** Choose relevant technologies from a predefined list.
-4. **AI Screening:** Interact with the AI-powered chatbot for automated screening.
-5. **AI Chatbot with RAG:** Ask domain-related queries and get intelligent responses.
+## 📁 Project Structure
 
-## Project Structure
 ```
-📂 talent-scout
-├── app.py               # Main Streamlit application
-├── requirements.txt     # Python dependencies
-├── .env                 # Environment variables
-├── assets/              # Logos and images
-├── README.md            # Project documentation
-└── modules/             # Additional backend logic
+talentscout-ai/
+│-- app.py                   # Main application file
+│-- requirements.txt          # Python dependencies
+│-- .env                      # Environment variables
+│-- logo.png                  # Project logo
+│-- README.md                 # Project documentation
+└─── modules/                 # AI processing & utilities
 ```
 
-## Future Enhancements
-- Integration with job boards for automated resume parsing.
-- AI-driven job recommendations based on skills.
-- Admin dashboard for recruiters.
-- Cloud deployment for accessibility.
+## 🤝 Contributing
 
-## License
-This project is licensed under the MIT License.
+We welcome contributions! If you'd like to improve **TalentScout**, feel free to fork this repo, create a branch, and submit a pull request.
 
-## Contact
-For any queries or contributions, reach out to omunde2016@gmail.com .
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+Made with ❤️ by Om Unde & Team.
