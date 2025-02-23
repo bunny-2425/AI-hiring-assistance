@@ -1,7 +1,5 @@
 # 🤖 TalentScout - AI Hiring Assistant
 
-![TalentScout Logo](main.logo.png)  
-
 TalentScout is an AI-powered hiring assistant designed to streamline the recruitment process. Built with **Streamlit, MongoDB, and AI-driven features**, this web app allows recruiters to manage candidates efficiently, conduct AI screenings, and leverage RAG-based AI chat for insightful hiring decisions.
 
 ## 🌟 Features
