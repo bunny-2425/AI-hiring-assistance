@@ -55,4 +55,4 @@ We welcome contributions! If you'd like to improve **TalentScout**, feel free to
 This project is licensed under the **MIT License**.
 
 ---
-Made with ❤️ by Om Unde & Team.
+Made with ❤️ by Om Unde
